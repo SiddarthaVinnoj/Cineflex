@@ -1,0 +1,256 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.body-dark{
+   
+  font-family: 'Roboto', sans-serif;  
+  background-color: black;          
+}
+.body-light{
+     font-family: 'Roboto', sans-serif;  
+  background-color: white; 
+}
+.body-light .text{
+    color: black;
+}
+.body-light .fa-regular{
+    color: black;
+}
+.body-light .card img{
+    border:2px solid black;
+}
+/* .body-light .home-page{
+    color: black;
+} */
+.body-light .home-page .box{
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+}
+.body-light .home-page .box button{
+    background-color: black;
+    color: white;
+}
+.navbar{
+    color: white;
+    background-color: black;
+}
+.navbar-dark{
+    color: black;
+    background-color: white;
+}
+.navbar-dark .searchbtn{
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+}
+.form-control-dark{
+    background-color: black;
+    border: 2px solid black;
+}
+.navbar li{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    margin-top: 10px;
+}
+.navbar-dark li{
+    color: black;
+    text-decoration: none;
+    list-style-type: none;
+    margin-top: 10px;
+}
+.navbar ul{
+    display: flex;
+    gap: 45px;
+}
+.navbar-dark ul{
+    display: flex;
+    gap: 45px;
+}
+.navbody{
+    display: flex;
+}
+.container-fluid input{
+    margin-left: 200px;
+    border-color: white;
+    color: white;
+     border: 2px solid white;
+    width: 400px;
+    margin-top: 5px;
+}
+.auth{
+    display: flex;
+    gap: 5px;
+    margin-left: 18%;
+}
+.auth .btn{
+    height: 40px;
+    margin-top: 5px;
+}
+.body-light .auth .btn{
+    background-color: black;
+    color: white;
+}
+.body-light .movie-detail{
+    background-color: white;
+    color: black;
+}
+.body-light .movie-detail button{
+    background-color: black;
+    color: white;
+}
+.more{
+    margin-top: 150px;
+}
+.mode{
+    margin-left: 10px;
+}
+.container-fluid-dark input{
+    margin-left: 500px;
+    border-color: black;
+    color: black;
+     border: 2px solid black;
+    width: 300px;
+    margin-top: 5px;
+}
+.searchbtn{
+    border: 2px solid white;
+    border-color: white;
+    color: white;
+    margin-top: 5px;
+}
+.card img{
+    width: 200px;
+    height: 500px;
+     gap: 50px;
+     border: 2px solid white;
+}
+.card{
+    float: left;
+    width: 200px;
+    height: 300px;
+    margin: 26px;
+
+}
+.bodyback{
+    width: 100%;
+    height: 670px;
+    background-size: "cover";
+    background-position: "center";
+}
+.backdata{
+    color: white;
+    margin-left: 60%;
+   padding-top: 300px;
+}
+.text{
+    color: white;
+    padding-top: 10px;
+    padding-left: 600px;
+    font-style: italic;
+}
+.text i{
+    color: white;
+}
+.movie-detail{
+    background-color: black;
+    color: white;
+}
+.movie-detail .single img{
+    width: 300px;
+    height: 380px;
+    margin-top: 40px;
+}
+.details{
+    padding-top: 100px;
+    padding-left: 400px;
+}
+.btn{
+    background-color: white;
+    color: black;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+.modes-light{
+    margin-top: 5px;
+}
+.modes-dark .mode{
+    margin-top: 5px;
+    background-color: black;
+    color: white;
+}
+.navItem:hover{
+    text-decoration: underline;
+    text-underline-offset: 6px;
+}
+.card-movies{
+    margin-top: 50px;
+}
+.home-page{
+    margin-top: 60px;
+    color: white;
+}
+.home-page h4{
+    margin-top: 30px;
+}
+
+.title h1{
+    padding-top: 20px;
+    margin-left: 45%;
+    color: orange;
+    font-weight: 1000;
+}
+.description h3{
+    margin-left: 20%;
+     text-decoration: underline orange;
+    text-underline-offset: 6px;
+    font-weight: 1000;
+}
+.description p{
+    margin-left: 45%;
+    font-style: italic;
+    font-weight: 1000;
+}
+.what{
+    margin-left: 30px;
+    margin-top: 50px;
+    font-weight: 1000;
+}
+.box{
+    border: 2px solid white;
+    width: 300px;
+    height: 330px;
+    margin-left: 10%;
+    border-radius: 20px;
+    margin-top: 10px;
+    background-color: black;
+}
+.box img{
+    width: 297px;
+    height: 200px;
+    border-radius: 20px
+}
+.box p{
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 20px;
+    font-style: italic;
+}
+.box button{
+    margin-left: 10px;
+}
+.all{
+    display: flex;
+}
+.foot{
+    font-weight: 1000;
+    margin-left: 30%;
+    padding-top: 20px;
+}
+.more h3{
+    margin-left: 30px;
+}
